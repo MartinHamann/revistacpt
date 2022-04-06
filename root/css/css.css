@@ -1,0 +1,117 @@
+/* SELECTOR GLOBAL */
+*{
+    font-family: 'Roboto Slab', serif;
+    color: #333
+}
+
+header {
+    background-color: whitesmoke;
+    height: 15%;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    position:static;
+    top: 0;
+}
+/* MENU*/
+nav{
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/* LISTADO MENU */
+li{
+    display: inline-block;
+    margin: 18px;
+    text-align: center;
+    width: 14vw;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    border: 3px;
+    font-weight: bold;
+}
+
+li:hover{
+    border: 2px, black;
+    border-style:solid;
+
+}
+
+footer{
+    clear:both;
+    margin-bottom: 0px;
+}
+/* IMAGEN DE FONDO TITULOS DE PAGINA */
+h1{
+    background-image: url(https://rentmywedding.com/rm/images/P/Fire-Effect.gif);
+    color: white;
+    font-weight: bold;
+}
+
+span{
+    text-align: center;
+    margin-left: 100px;
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px 20px;
+
+}
+
+#redesSociales{
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    height: 30px;    
+    padding-top: 10px;
+}
+
+.bordes{
+    border: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.padding{
+    padding: 15px 20px;
+}
+
+.titulos{
+    text-align: center;
+    text-decoration: underline overline rgb(0, 60, 255);
+    font-size: 35px;
+}
+
+.publicidades{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 20%;
+    padding:0%;
+    float: right;
+}
+
+.developer{
+    text-align: right;
+}
+.centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.margenes{
+    margin: 50px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
+        <title>Revista noticias</title>
+        <link rel="stylesheet" href="../css/css.css">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    </head>
+    <body> <!-- INICIO DEL BODY -->
+        <header><!-- BANNER DE PRESENTACION -->
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-simple-light-color-luxurious-atmosphere-image_28252.jpg" width="100%" height="200px" alt="Contáctenos aquí">      
+            <h1>Contactenos atraves de todos los medios!</h1>
+        </header>
+        <hr>
+        <nav><!-- BARRA DE NAVEGACION -->
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/noticias.html">Noticias</a></li>
+                <li><a href="../pages/revista.html">Revista</a></li>
+                <li><a href="../pages/quienes_somos.html">Quienes somos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h2 class="centrado">Formulario de contacto</h2>
+        <hr>
+        <main class="centrado"> <!-- INICIO DE MAIN -->
+
+            <form action=""> <!-- FORMULARIO DE CONTACTO -->
+                <input type="text" name="Nombre" placeholder="Ingrese nombre completo" size="50"> <br><br> 
+                <input type="email" name="Correo" placeholder="Ingrese su correo electronico" size="50"> <br><br> 
+                <select name="Motivo de contacto">
+                    <option>Motivo de contacto</option>
+                    <option>Publicaciones</option>
+                    <option>Trabajo</option>
+                    <option>Publicidad</option>
+                    <option>Observaciones de editor</option>
+                </select><br><br>
+                <textarea name="comentario" placeholder="Ingrese sus comentarios" rows="10" cols="50"></textarea> <br><br>
+
+                <!-- CONTROLES DE SELECCION -->
+                <input type="radio" name="sexo" value="Hombre"> <a>Hombre</a>
+                <input type="radio" name="sexo" value="Mujer"> <a>Mujer</a>
+                <input type="radio" name="sexo" value="na"> <a>Prefiero no decirlo</a>                    
+                <br><br>
+                <!--CHECKBOX-->
+                <input type="checkbox" name="terminos" value="1">
+                <a>Suscribirme al newsletter</a> 
+                <br><br> <!-- BOTONES -->
+                <input class="padding" type="submit" value="Enviar formulario">
+                <input class="padding" type="reset" value="Resetear formulario">
+            </form>
+            <br><br>
+            <!-- MAPA DE GOOGLE -->
+            <iframe class="padding margenes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.8546935484983!2d-64.25986938509682!3d-27.78345108276041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b5216e48679db%3A0xe0dd8b8c1e7ff622!2sAv.%20Roca%20Sur%20460%2C%20G4200%20MAM%2C%20Santiago%20del%20Estero!5e0!3m2!1ses!2sar!4v1647302508040!5m2!1ses!2sar" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </main>
+        <hr>
+        <footer>
+            <nav id="redesSociales"><!-- REDES SOCIALES -->
+                <span><a href="https://www.facebook.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/123/123717.png" style: width="20px"></a></span>
+                <span><a href="https://www.instagram.com/" target="_blank"><img src="https://www.pngkey.com/png/full/1-13374_instagram-icon-new-black-background-vector-logo-instagram.png" style: width="20px"></a></span>
+                <span><a href="https://www.twitter.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" style: width="20px"></a></span>
+            </nav>
+            <hr>
+            <!-- INFO DEVELOPER -->
+            <h5 class="developer">Desarrollado por <a href="https://www.MHwebd.org" target="_blank">MHwebd.org</a></h5>
+        </footer>
+    </body>
+</html>
